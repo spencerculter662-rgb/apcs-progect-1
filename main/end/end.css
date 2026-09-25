@@ -1,0 +1,72 @@
+.bar{
+    display: flex ;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    justify-content: space-between;
+    align-items: center;      
+    justify-content: space-between; /* Pushes logo left, nav right */
+    align-items: center;   
+}
+
+.lgo {
+    font-size: 30px;
+}
+
+
+.stander_button {
+    background-color: orange;
+    font-size: 50px;
+    width: 300px;
+    height: 80px; 
+    border-radius: 10px;
+}
+.stander_button a:hover {
+    transform: scale(1.15);
+}
+
+.img1 {
+    border: 10px;
+    border-radius: 10px; 
+    margin: 10px;
+    max-width: 300px;
+    max-height: auto;
+}
+
+
+.contaner {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.page_end {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav-links {
+  list-style: none;               /* Removes bullet points */
+  display: flex;                  /* Aligns links horizontally */
+  gap: 20px;                      /* Adds space between links */
+}
+
+/* Individual Links */
+.nav-links a {
+  color: #fff;
+  text-decoration: none;          /* Removes underline */
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  color: #ffd700;                 /* Turns gold on hover */
+}
