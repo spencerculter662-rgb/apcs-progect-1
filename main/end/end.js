@@ -6,4 +6,4 @@ function step1() {
 }
 function step2() {
     window.location.href = '../step2/step2.html'
-}
+}2

@@ -52,7 +52,7 @@
 .nav-links {
   list-style: none;               /* Removes bullet points */
   display: flex;                  /* Aligns links horizontally */
-  gap: 20px;                      /* Adds space between links */
+  gap: 40px;                      /* Adds space between links */
 }
 
 /* Individual Links */
@@ -61,6 +61,7 @@
   text-decoration: none;          /* Removes underline */
   font-size: 16px;
   transition: color 0.3s;
+  border: 5px;
 }
 
 /* Hover Effect */
